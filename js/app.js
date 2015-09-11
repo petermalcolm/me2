@@ -1,3 +1,7 @@
+(function() {
+"use strict";
+
+
 window.addEventListener('polymer-ready', function() {
 	var navicon = document.getElementById('navicon');
 	var drawerPanel = document.getElementById('drawerPanel');
@@ -5,3 +9,7 @@ window.addEventListener('polymer-ready', function() {
 		drawerPanel.togglePanel();
 	});
 });
+
+
+
+})();
