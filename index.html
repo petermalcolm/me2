@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="proto-element.html">
+    <link rel="import" href="elements.html">
+    <link rel="import" href="layout.html">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/app.js"></script>
+  </head>
+  <body class="fullbleed layout vertical">
+  <paper-drawer-panel id="drawerPanel">
+    <paper-header-panel drawer>
+        <paper-menu>
+          <paper-item label="Home"><paper-icon-button icon="home"></paper-icon-button> Home</paper-item>
+          <paper-item label="Bio"><paper-icon-button icon="view-list"></paper-icon-button> Bio</paper-item>
+          <paper-item label="Blog"><paper-icon-button icon="create"></paper-icon-button> Blog</paper-item>
+          <paper-item label="Projects"><paper-icon-button icon="work"></paper-icon-button> Projects</paper-item>
+          <paper-item label="Contact"><paper-icon-button icon="mail"></paper-icon-button> Contact</paper-item>
+        </paper-menu>
+    </paper-header-panel>
+    
+    <paper-header-panel main mode="waterfall-tall">
+      <paper-toolbar class="tall green">
+        <paper-icon-button id="navicon" icon="menu" paper-drawer-toggle>
+        </paper-icon-button>
+        <img id="ptm-face" class="middle indented-nicely shrunken" src="img/peterm-200x200.png" />
+        <div class="middle indented-nicely">Peter T. Malcolm</div>
+        <span flex></span>
+        <paper-icon-button icon="search">
+      </paper-toolbar>
+        <div class="content indented-nicely">
+          <h1>MAIN CONTENT HERE</h1>
+          <p>This is all a bunch of content</p>
+          <img src="http://placehold.it/350x1500" />
+        </div>
+    </paper-header-panel>
+  </paper-drawer-panel>
+
+  </body>
+</html>

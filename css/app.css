@@ -1,0 +1,47 @@
+/**
+ * Body
+ */
+body {
+	font-family: Arial, sans-serif;
+}
+
+/**
+ * Paper-Toolbar 
+ */
+paper-toolbar.green {
+	background-color: green;
+}
+
+/**
+ * Paper-Item
+ */
+paper-item {
+ 	cursor: pointer;
+}
+
+/**
+ * Image
+ */
+.shrunken {
+	width: 52px;
+	height: 52px;
+	-webkit-transition: width 0.18s ease 0.18s, height 0.18s ease 0.18s;
+	transition: width 0.18s ease 0.18s, height 0.18s ease 0.18s;
+}
+.tall > #middleBar > .shrunken {
+	width: 160px;
+	height: 160px;
+	-webkit-transition: width 0.18s ease 0.18s, 0.18s ease 0.18s;
+	transition: width 0.18s ease 0.18s, 0.18s ease 0.18s;
+}
+
+
+/**
+ * Indentations
+ */
+.indented-nicely {
+	margin-left: 40px;
+}
+.indented-a-lot {
+	margin-left: 300px;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "petermalcolm-me-Site",
+  "version": "0.0.0",
+  "authors": [
+    "petermalcolm <peter.t.malcolm@gmail.com>"
+  ],
+  "description": "Personal website of Peter T. Malcolm",
+  "main": "index.html",
+  "keywords": [
+    "polymer",
+    "petermalcolm",
+    "developer"
+  ],
+  "license": "MIT",
+  "homepage": "http://petermalcolm.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-component-page": "Polymer/core-component-page#^0.5",
+    "core-header-panel": "Polymer/core-header-panel#~0.5.6",
+    "core-toolbar": "Polymer/core-toolbar#~0.5.6",
+    "polymer": "~1.0.7",
+    "iron-icons": "PolymerElements/iron-icons#~1.0.3",
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#~1.0.3",
+    "paper-header-panel": "PolymerElements/paper-header-panel#~1.0.3",
+    "paper-toolbar": "PolymerElements/paper-toolbar#~1.0.4",
+    "paper-icon-button": "PolymerElements/paper-icon-button#~1.0.3",
+    "paper-progress": "PolymerElements/paper-progress#~1.0.2",
+    "paper-menu": "PolymerElements/paper-menu#~1.0.1",
+    "paper-item": "PolymerElements/paper-item#~1.0.2"
+  }
+}
